@@ -1,0 +1,1534 @@
+{
+  "instansi": [
+    {
+      "id": 1,
+      "kode_instansi": "SMKN2-SBY",
+      "nama_instansi": "SMK Negeri 2 Surabaya",
+      "domain_email": "smkn2.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 2,
+      "kode_instansi": "SMAN5-SBY",
+      "nama_instansi": "SMA Negeri 5 Surabaya",
+      "domain_email": "sman5sby.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 3,
+      "kode_instansi": "MAN1-SDA",
+      "nama_instansi": "MAN 1 Sidoarjo",
+      "domain_email": "man1sda.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 4,
+      "kode_instansi": "SMKN1-SDA",
+      "nama_instansi": "SMK Negeri 1 Sidoarjo",
+      "domain_email": "smkn1sda.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 5,
+      "kode_instansi": "SMAN1-SDA",
+      "nama_instansi": "SMA Negeri 1 Sidoarjo",
+      "domain_email": "sman1sda.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 6,
+      "kode_instansi": "SMKN1-SBY",
+      "nama_instansi": "SMK Negeri 1 Surabaya",
+      "domain_email": "smkn1sby.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 7,
+      "kode_instansi": "SMAN1-SBY",
+      "nama_instansi": "SMA Negeri 1 Surabaya",
+      "domain_email": "sman1sby.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 8,
+      "kode_instansi": "SMAN3-SBY",
+      "nama_instansi": "SMA Negeri 3 Surabaya",
+      "domain_email": "sman3sby.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 9,
+      "kode_instansi": "SMKN1-MLG",
+      "nama_instansi": "SMK Negeri 1 Malang",
+      "domain_email": "smkn1mlg.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 10,
+      "kode_instansi": "SMAN3-MLG",
+      "nama_instansi": "SMA Negeri 3 Malang",
+      "domain_email": "sman3mlg.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 11,
+      "kode_instansi": "SMAN1-MLG",
+      "nama_instansi": "SMA Negeri 1 Malang",
+      "domain_email": "sman1mlg.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 12,
+      "kode_instansi": "SMKN4-MLG",
+      "nama_instansi": "SMK Negeri 4 Malang",
+      "domain_email": "smkn4mlg.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 13,
+      "kode_instansi": "MAN1-MLG",
+      "nama_instansi": "MAN 1 Kota Malang",
+      "domain_email": "man1mlg.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 14,
+      "kode_instansi": "SMKN1-GRS",
+      "nama_instansi": "SMK Negeri 1 Gresik",
+      "domain_email": "smkn1grs.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 15,
+      "kode_instansi": "SMAN1-GRS",
+      "nama_instansi": "SMA Negeri 1 Gresik",
+      "domain_email": "sman1grs.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 16,
+      "kode_instansi": "SMKN1-MJK",
+      "nama_instansi": "SMK Negeri 1 Mojokerto",
+      "domain_email": "smkn1mjk.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 17,
+      "kode_instansi": "SMAN1-PSR",
+      "nama_instansi": "SMA Negeri 1 Pasuruan",
+      "domain_email": "sman1psr.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 18,
+      "kode_instansi": "SMKN2-KDR",
+      "nama_instansi": "SMK Negeri 2 Kediri",
+      "domain_email": "smkn2kdr.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 19,
+      "kode_instansi": "SMAN2-JBG",
+      "nama_instansi": "SMA Negeri 2 Jombang",
+      "domain_email": "sman2jbg.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 20,
+      "kode_instansi": "SMKN1-BWI",
+      "nama_instansi": "SMK Negeri 1 Banyuwangi",
+      "domain_email": "smkn1bwi.sch.id",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    }
+  ],
+  "modul": [
+    {
+      "id": 1,
+      "nama_modul": "Database",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 2,
+      "nama_modul": "Login / Akun",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 3,
+      "nama_modul": "Laporan",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 4,
+      "nama_modul": "Pembayaran",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 5,
+      "nama_modul": "Tampilan",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 6,
+      "nama_modul": "Jaringan",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 7,
+      "nama_modul": "Lainnya",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    }
+  ],
+  "pengguna": [
+    {
+      "id": 1,
+      "nama": "Admin Helpdesk",
+      "email": "admin@perusahaan.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "081230000001",
+      "role": "admin",
+      "spesialisasi": null,
+      "instansi_id": null,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 2,
+      "nama": "Rafi Pratama",
+      "email": "rafi@perusahaan.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "081230000002",
+      "role": "teknisi",
+      "spesialisasi": "Database",
+      "instansi_id": null,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 3,
+      "nama": "Dina",
+      "email": "dina@perusahaan.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "081230000003",
+      "role": "teknisi",
+      "spesialisasi": "Frontend",
+      "instansi_id": null,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 4,
+      "nama": "Bayu",
+      "email": "bayu@perusahaan.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "081230000004",
+      "role": "teknisi",
+      "spesialisasi": "Server & Jaringan",
+      "instansi_id": null,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 5,
+      "nama": "Bu Rina",
+      "email": "rina@smkn2.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000001",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 1,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 6,
+      "nama": "Pak Yusuf",
+      "email": "yusuf@sman5sby.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000002",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 2,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 7,
+      "nama": "Bu Nur",
+      "email": "nur@man1sda.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000003",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 3,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 8,
+      "nama": "Pak Agus",
+      "email": "agus@smkn1sda.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000004",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 4,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 9,
+      "nama": "Bu Wulan",
+      "email": "wulan@sman1sda.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000005",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 5,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 10,
+      "nama": "Pak Dimas",
+      "email": "dimas@smkn1sby.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000006",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 6,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 11,
+      "nama": "Bu Anita",
+      "email": "anita@sman1sby.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000007",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 7,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 12,
+      "nama": "Pak Bagas",
+      "email": "bagas@sman3sby.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000008",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 8,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 13,
+      "nama": "Bu Citra",
+      "email": "citra@smkn1mlg.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000009",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 9,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 14,
+      "nama": "Pak Eko",
+      "email": "eko@sman3mlg.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000010",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 10,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 15,
+      "nama": "Bu Fitri",
+      "email": "fitri@sman1mlg.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000011",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 11,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 16,
+      "nama": "Pak Gunawan",
+      "email": "gunawan@smkn4mlg.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000012",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 12,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 17,
+      "nama": "Bu Hesti",
+      "email": "hesti@man1mlg.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000013",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 13,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 18,
+      "nama": "Pak Irfan",
+      "email": "irfan@smkn1grs.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000014",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 14,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 19,
+      "nama": "Bu Juwita",
+      "email": "juwita@sman1grs.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000015",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 15,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 20,
+      "nama": "Pak Kurniawan",
+      "email": "kurniawan@smkn1mjk.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000016",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 16,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 21,
+      "nama": "Bu Lestari",
+      "email": "lestari@sman1psr.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000017",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 17,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 22,
+      "nama": "Pak Mahendra",
+      "email": "mahendra@smkn2kdr.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000018",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 18,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 23,
+      "nama": "Bu Novi",
+      "email": "novi@sman2jbg.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000019",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 19,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 24,
+      "nama": "Pak Oky",
+      "email": "oky@smkn1bwi.sch.id",
+      "password": "$2y$10$OdD0VmWtZ5iySz3GBLDjO.rwu5ttXbfS4sWHP8pKHQq2XSsrLhDXi",
+      "telepon": "085700000020",
+      "role": "klien",
+      "spesialisasi": null,
+      "instansi_id": 20,
+      "status": "aktif",
+      "kode_aktivasi": null,
+      "foto": null,
+      "last_login": null,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    }
+  ],
+  "artikel_bantuan": [
+    {
+      "id": 1,
+      "modul_id": 1,
+      "judul": "Data tidak tersimpan setelah klik simpan",
+      "isi": "Masalah ini biasanya muncul karena koneksi ke database terputus, tabel sedang terkunci, atau ada kolom wajib yang belum terisi.\n\nLangkah pemeriksaan:\n1. Pastikan semua kolom bertanda wajib sudah terisi dan formatnya benar, misalnya tanggal dan angka.\n2. Muat ulang halaman, lalu cek apakah data yang tadi disimpan sudah muncul di daftar.\n3. Periksa koneksi database dengan mengikuti artikel Cara memeriksa koneksi database.\n4. Coba simpan ulang dengan jumlah data yang lebih sedikit. Bila berhasil, kemungkinan ada satu data yang formatnya bermasalah.\n5. Jika masih gagal, buat aduan dengan kategori Gangguan / Error pada modul Database.\n\nYang perlu dilampirkan di aduan: tangkapan layar pesan galat, waktu kejadian, dan nama menu tempat data disimpan. Informasi ini membantu teknisi menemukan penyebabnya lebih cepat.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 2,
+      "modul_id": 1,
+      "judul": "Cara memeriksa koneksi database",
+      "isi": "Uji koneksi dipakai untuk memastikan aplikasi masih bisa berkomunikasi dengan server database.\n\nLangkah-langkah:\n1. Buka menu pengaturan sistem.\n2. Pilih bagian database, lalu klik tombol uji koneksi.\n3. Tunggu sampai hasil uji muncul.\n4. Bila berhasil, koneksi aman dan masalah kemungkinan ada di bagian lain.\n5. Bila gagal, catat pesan galat yang tampil, misalnya connection refused atau access denied.\n\nArti pesan yang sering muncul:\n- Connection refused: server database tidak aktif atau alamat dan port salah.\n- Access denied: nama pengguna atau kata sandi database salah.\n- Unknown database: nama database yang diisi belum dibuat atau salah ketik.\n\nSertakan pesan galat tersebut saat membuat aduan agar teknisi tidak perlu menebak penyebabnya.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 3,
+      "modul_id": 2,
+      "judul": "Lupa kata sandi",
+      "isi": "Kalau lupa kata sandi, kamu bisa melakukan reset sandi sendiri tanpa menghubungi admin.\n\nLangkah-langkah:\n1. Buka halaman masuk, lalu klik Lupa kata sandi.\n2. Masukkan email instansi yang terdaftar di sistem.\n3. Buka kotak masuk email dan cari pesan berisi kode atau tautan reset. Cek juga folder spam bila belum ada.\n4. Ikuti petunjuk di email, lalu buat kata sandi baru.\n5. Masuk kembali memakai kata sandi baru.\n\nTips membuat kata sandi yang kuat:\n- Gunakan minimal 8 karakter.\n- Gabungkan huruf besar, huruf kecil, angka, dan simbol.\n- Hindari tanggal lahir, nama sendiri, atau urutan angka seperti 12345678.\n- Jangan memakai kata sandi yang sama dengan akun lain.\n\nJika email reset tidak kunjung masuk setelah beberapa menit, pastikan alamat email yang diketik sudah benar, lalu hubungi admin helpdesk.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 4,
+      "modul_id": 2,
+      "judul": "Akun terkunci setelah salah sandi",
+      "isi": "Sistem mengunci akun sementara setelah beberapa kali salah memasukkan kata sandi. Tujuannya melindungi akun dari upaya masuk oleh pihak yang tidak berhak.\n\nYang perlu dilakukan:\n1. Tunggu 15 menit tanpa mencoba masuk lagi, karena percobaan tambahan bisa memperpanjang waktu kunci.\n2. Setelah 15 menit, coba masuk dengan kata sandi yang benar.\n3. Bila lupa kata sandi, gunakan fitur Lupa kata sandi di halaman masuk.\n4. Bila akun masih terkunci, hubungi admin helpdesk dan sebutkan email akun yang terkunci.\n\nPencegahan: simpan kata sandi di aplikasi pengelola kata sandi dan pastikan tombol Caps Lock tidak aktif saat mengetik.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 5,
+      "modul_id": 3,
+      "judul": "Laporan kosong atau tidak muncul",
+      "isi": "Laporan yang kosong biasanya bukan kerusakan sistem. Penyebab paling umum adalah filter yang belum sesuai.\n\nCek satu per satu:\n1. Pastikan rentang tanggal sudah benar. Jangan sampai tanggal awal lebih besar dari tanggal akhir.\n2. Pastikan pada periode tersebut memang ada data yang tercatat.\n3. Periksa filter lain seperti kategori, status, atau instansi, lalu coba kosongkan filter.\n4. Muat ulang halaman dengan menekan Ctrl + F5 agar tampilan terbaru dimuat.\n5. Coba buka dengan browser lain untuk memastikan masalah bukan dari browser.\n\nJika semua langkah sudah dicoba tetapi laporan tetap kosong, buat aduan pada modul Laporan. Lampirkan tangkapan layar filter yang dipakai agar teknisi bisa mengulang kondisi yang sama.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 6,
+      "modul_id": 3,
+      "judul": "Cara mengunduh laporan PDF",
+      "isi": "Laporan dapat disimpan dalam bentuk berkas PDF untuk dicetak atau dibagikan.\n\nLangkah-langkah:\n1. Buka menu laporan.\n2. Pilih periode atau rentang tanggal yang dibutuhkan.\n3. Tampilkan laporan terlebih dahulu dan pastikan isinya sudah sesuai.\n4. Klik tombol Unduh, lalu pilih format PDF.\n5. Tunggu proses selesai, kemudian cek berkas di folder Unduhan pada perangkat.\n\nBila unduhan tidak berjalan, periksa apakah browser memblokir pop-up atau unduhan otomatis, lalu izinkan untuk situs ini. Pastikan juga penyimpanan perangkat masih cukup.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 7,
+      "modul_id": 4,
+      "judul": "Pembayaran e-wallet belum masuk",
+      "isi": "Pembayaran lewat e-wallet kadang butuh waktu karena harus dikonfirmasi oleh penyedia layanan.\n\nLangkah yang disarankan:\n1. Tunggu sampai 30 menit setelah pembayaran dilakukan.\n2. Cek riwayat transaksi di aplikasi e-wallet dan pastikan saldo benar-benar sudah terpotong.\n3. Muat ulang halaman status pembayaran di sistem.\n4. Bila status tetap pending setelah 30 menit, buat aduan pada modul Pembayaran.\n\nLampirkan bukti pembayaran berupa tangkapan layar yang menampilkan nominal, tanggal, jam, dan nomor referensi transaksi. Hindari membayar ulang sebelum ada kepastian dari tim agar tidak terjadi pembayaran ganda.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 8,
+      "modul_id": 4,
+      "judul": "Status transaksi pending",
+      "isi": "Status pending berarti pembayaran sudah dikirim tetapi belum dikonfirmasi oleh penyedia pembayaran.\n\nHal yang perlu diketahui:\n- Pending bukan berarti gagal. Sistem masih menunggu jawaban dari penyedia.\n- Jangan bayar ulang sebelum 1 jam, karena bisa menyebabkan pembayaran ganda.\n- Selama menunggu, simpan bukti pembayaran dan nomor referensi transaksi.\n\nLangkah lanjutan:\n1. Tunggu minimal 1 jam, lalu muat ulang halaman status transaksi.\n2. Jika status berubah menjadi berhasil, tidak ada yang perlu dilakukan lagi.\n3. Jika masih pending atau berubah menjadi gagal padahal saldo terpotong, buat aduan pada modul Pembayaran beserta bukti pembayaran.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 9,
+      "modul_id": 5,
+      "judul": "Tampilan berantakan di HP",
+      "isi": "Tampilan yang tidak rapi di ponsel biasanya disebabkan browser versi lama atau cache lama yang masih tersimpan.\n\nLangkah perbaikan:\n1. Perbarui browser ke versi terbaru lewat Google Play Store atau App Store.\n2. Bersihkan cache browser dengan mengikuti artikel Membersihkan cache browser.\n3. Putar layar ke mode potret atau lanskap, lalu muat ulang halaman.\n4. Coba buka lewat browser lain untuk membandingkan hasilnya.\n5. Pastikan mode hemat data atau mode baca tidak sedang aktif, karena bisa mengubah tampilan.\n\nBila masih berantakan, buat aduan pada modul Tampilan. Sertakan tangkapan layar, tipe atau merek HP, versi sistem operasi, dan nama browser yang dipakai.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 10,
+      "modul_id": 5,
+      "judul": "Membersihkan cache browser",
+      "isi": "Cache adalah data sementara yang disimpan browser agar halaman terbuka lebih cepat. Cache lama kadang membuat tampilan atau data tidak ikut diperbarui.\n\nDi komputer (Chrome atau Edge):\n1. Tekan Ctrl + Shift + Delete.\n2. Pilih rentang waktu, misalnya Semua waktu.\n3. Centang gambar dan berkas dalam cache.\n4. Klik Hapus data, lalu muat ulang halaman.\n\nDi ponsel:\n1. Buka pengaturan browser, lalu pilih hapus data penelusuran.\n2. Centang gambar dan berkas tersimpan.\n3. Konfirmasi penghapusan, lalu buka kembali situs ini.\n\nCatatan: jangan centang kata sandi tersimpan kecuali memang ingin menghapusnya. Setelah cache dihapus, halaman pertama kali dibuka mungkin terasa sedikit lebih lambat.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 11,
+      "modul_id": 7,
+      "judul": "Panduan penggunaan sistem",
+      "isi": "Disty HelpDesk membantu klien menyampaikan kendala IT dan memantau penanganannya.\n\nAlur penggunaan:\n1. Masuk memakai email instansi dan kata sandi.\n2. Buat aduan: pilih kategori dan modul, tulis judul serta deskripsi masalah, lalu lampirkan tangkapan layar bila ada.\n3. Pantau status aduan di dashboard. Setiap perubahan status dan tindakan teknisi tercatat di riwayat.\n4. Ajukan konsultasi bila butuh diskusi langsung dengan teknisi. Pilih tanggal dan jam yang tersedia.\n5. Isi survei setelah aduan selesai untuk menilai kecepatan respon, kemudahan, dan kualitas penanganan.\n\nTips menulis aduan yang cepat ditangani:\n- Gunakan judul yang spesifik, misalnya Printer lab tidak terhubung ke jaringan.\n- Jelaskan langkah yang sudah dicoba.\n- Sebutkan waktu mulai masalah terjadi.\n- Cari dulu di Pusat Bantuan, siapa tahu jawabannya sudah ada.",
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    }
+  ],
+  "aduan": [
+    {
+      "id": 1,
+      "kode_aduan": "HD-001",
+      "pelapor_id": 5,
+      "modul_id": 6,
+      "kategori": "Gangguan / Error",
+      "judul": "Printer lab tidak terhubung ke jaringan",
+      "deskripsi": "Printer di lab komputer tidak terdeteksi oleh semua komputer.",
+      "prioritas": "Sedang",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": 4,
+      "created_at": "2026-09-08 02:00:00",
+      "updated_at": "2026-09-15 07:00:00"
+    },
+    {
+      "id": 2,
+      "kode_aduan": "HD-002",
+      "pelapor_id": 6,
+      "modul_id": 2,
+      "kategori": "Gangguan / Error",
+      "judul": "Guru lupa kata sandi akun",
+      "deskripsi": "Tiga guru tidak bisa masuk karena lupa kata sandi.",
+      "prioritas": "Rendah",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": 5,
+      "created_at": "2026-09-01 01:00:00",
+      "updated_at": "2026-09-02 04:00:00"
+    },
+    {
+      "id": 3,
+      "kode_aduan": "HD-003",
+      "pelapor_id": 7,
+      "modul_id": 1,
+      "kategori": "Gangguan / Error",
+      "judul": "Data tidak tersimpan setelah import",
+      "deskripsi": "Import data siswa dari Excel selesai tetapi data tidak muncul.",
+      "prioritas": "Tinggi",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": 4,
+      "created_at": "2026-08-03 02:00:00",
+      "updated_at": "2026-08-03 09:00:00"
+    },
+    {
+      "id": 4,
+      "kode_aduan": "HD-004",
+      "pelapor_id": 9,
+      "modul_id": 3,
+      "kategori": "Gangguan / Error",
+      "judul": "Cetak surat keterangan tidak muncul",
+      "deskripsi": "Nama siswa kosong pada surat keterangan hasil cetak.",
+      "prioritas": "Sedang",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": 5,
+      "created_at": "2026-09-08 03:00:00",
+      "updated_at": "2026-09-09 08:00:00"
+    },
+    {
+      "id": 5,
+      "kode_aduan": "HD-005",
+      "pelapor_id": 10,
+      "modul_id": 5,
+      "kategori": "Gangguan / Error",
+      "judul": "Tampilan menu rusak di HP",
+      "deskripsi": "Menu tertutup di layar kecil.",
+      "prioritas": "Rendah",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": "dokumentasi/HD-005-sebelum.jpg",
+      "foto_sesudah": "dokumentasi/HD-005-sesudah.jpg",
+      "rating": 4,
+      "created_at": "2026-09-18 02:00:00",
+      "updated_at": "2026-09-18 07:00:00"
+    },
+    {
+      "id": 6,
+      "kode_aduan": "HD-006",
+      "pelapor_id": 11,
+      "modul_id": 1,
+      "kategori": "Gangguan / Error",
+      "judul": "Query failed di rekap nilai",
+      "deskripsi": "Muncul pesan Query failed saat membuka rekap nilai.",
+      "prioritas": "Tinggi",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": 5,
+      "created_at": "2026-09-12 01:30:00",
+      "updated_at": "2026-09-12 09:30:00"
+    },
+    {
+      "id": 7,
+      "kode_aduan": "HD-007",
+      "pelapor_id": 12,
+      "modul_id": 1,
+      "kategori": "Gangguan / Error",
+      "judul": "Database absensi lambat",
+      "deskripsi": "Rekap absensi butuh waktu lama.",
+      "prioritas": "Sedang",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": "dokumentasi/HD-007-sebelum.jpg",
+      "foto_sesudah": "dokumentasi/HD-007-sesudah.jpg",
+      "rating": 5,
+      "created_at": "2026-09-20 02:00:00",
+      "updated_at": "2026-09-20 09:00:00"
+    },
+    {
+      "id": 8,
+      "kode_aduan": "HD-008",
+      "pelapor_id": 13,
+      "modul_id": 2,
+      "kategori": "Gangguan / Error",
+      "judul": "Login guru lambat",
+      "deskripsi": "Butuh sekitar 1 menit untuk masuk.",
+      "prioritas": "Sedang",
+      "status": "Selesai",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": "dokumentasi/HD-008-sesudah.jpg",
+      "rating": 4,
+      "created_at": "2026-09-28 01:00:00",
+      "updated_at": "2026-09-28 06:00:00"
+    },
+    {
+      "id": 9,
+      "kode_aduan": "HD-009",
+      "pelapor_id": 14,
+      "modul_id": 1,
+      "kategori": "Gangguan / Error",
+      "judul": "Database laporan nilai error",
+      "deskripsi": "Pesan Query failed di rekap nilai semester.",
+      "prioritas": "Tinggi",
+      "status": "Monitoring",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": null,
+      "created_at": "2026-09-27 03:00:00",
+      "updated_at": "2026-09-27 03:00:00"
+    },
+    {
+      "id": 10,
+      "kode_aduan": "HD-010",
+      "pelapor_id": 15,
+      "modul_id": 1,
+      "kategori": "Gangguan / Error",
+      "judul": "Data siswa tidak tersimpan",
+      "deskripsi": "Setelah klik simpan, data siswa baru hilang saat halaman dimuat ulang.",
+      "prioritas": "Tinggi",
+      "status": "Diproses",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": null,
+      "created_at": "2026-09-30 02:10:00",
+      "updated_at": "2026-09-30 02:10:00"
+    },
+    {
+      "id": 11,
+      "kode_aduan": "HD-011",
+      "pelapor_id": 16,
+      "modul_id": 3,
+      "kategori": "Pengembangan / Update Fitur",
+      "judul": "Tambah fitur cetak rapor PDF",
+      "deskripsi": "Ingin rapor bisa diunduh PDF.",
+      "prioritas": "Rendah",
+      "status": "Baru",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": null,
+      "created_at": "2026-10-01 00:30:00",
+      "updated_at": "2026-10-01 00:30:00"
+    },
+    {
+      "id": 12,
+      "kode_aduan": "HD-012",
+      "pelapor_id": 17,
+      "modul_id": 4,
+      "kategori": "Gangguan / Error",
+      "judul": "Pembayaran SPP e-wallet tidak tercatat",
+      "deskripsi": "Orang tua sudah bayar tetapi status SPP masih belum lunas.",
+      "prioritas": "Urgent",
+      "status": "Diproses",
+      "lampiran": null,
+      "foto_sebelum": null,
+      "foto_sesudah": null,
+      "rating": null,
+      "created_at": "2026-10-20 01:00:00",
+      "updated_at": "2026-10-20 01:00:00"
+    }
+  ],
+  "penugasan_teknisi": [
+    {
+      "id": 1,
+      "aduan_id": 1,
+      "teknisi_id": 4,
+      "peran": "utama",
+      "created_at": "2026-09-08 03:00:00",
+      "updated_at": "2026-09-08 03:00:00"
+    },
+    {
+      "id": 2,
+      "aduan_id": 2,
+      "teknisi_id": 3,
+      "peran": "utama",
+      "created_at": "2026-09-01 02:00:00",
+      "updated_at": "2026-09-01 02:00:00"
+    },
+    {
+      "id": 3,
+      "aduan_id": 3,
+      "teknisi_id": 2,
+      "peran": "utama",
+      "created_at": "2026-08-03 03:00:00",
+      "updated_at": "2026-08-03 03:00:00"
+    },
+    {
+      "id": 4,
+      "aduan_id": 4,
+      "teknisi_id": 2,
+      "peran": "utama",
+      "created_at": "2026-09-08 04:00:00",
+      "updated_at": "2026-09-08 04:00:00"
+    },
+    {
+      "id": 5,
+      "aduan_id": 5,
+      "teknisi_id": 3,
+      "peran": "utama",
+      "created_at": "2026-09-18 03:00:00",
+      "updated_at": "2026-09-18 03:00:00"
+    },
+    {
+      "id": 6,
+      "aduan_id": 6,
+      "teknisi_id": 2,
+      "peran": "utama",
+      "created_at": "2026-09-12 02:00:00",
+      "updated_at": "2026-09-12 02:00:00"
+    },
+    {
+      "id": 7,
+      "aduan_id": 6,
+      "teknisi_id": 4,
+      "peran": "pendamping",
+      "created_at": "2026-09-12 02:00:00",
+      "updated_at": "2026-09-12 02:00:00"
+    },
+    {
+      "id": 8,
+      "aduan_id": 7,
+      "teknisi_id": 2,
+      "peran": "utama",
+      "created_at": "2026-09-20 03:00:00",
+      "updated_at": "2026-09-20 03:00:00"
+    },
+    {
+      "id": 9,
+      "aduan_id": 8,
+      "teknisi_id": 4,
+      "peran": "utama",
+      "created_at": "2026-09-28 02:00:00",
+      "updated_at": "2026-09-28 02:00:00"
+    },
+    {
+      "id": 10,
+      "aduan_id": 9,
+      "teknisi_id": 2,
+      "peran": "utama",
+      "created_at": "2026-09-27 04:00:00",
+      "updated_at": "2026-09-27 04:00:00"
+    },
+    {
+      "id": 11,
+      "aduan_id": 10,
+      "teknisi_id": 2,
+      "peran": "utama",
+      "created_at": "2026-09-30 03:00:00",
+      "updated_at": "2026-09-30 03:00:00"
+    },
+    {
+      "id": 12,
+      "aduan_id": 12,
+      "teknisi_id": 4,
+      "peran": "utama",
+      "created_at": "2026-10-20 01:30:00",
+      "updated_at": "2026-10-20 01:30:00"
+    }
+  ],
+  "riwayat_aduan": [
+    {
+      "id": 1,
+      "aduan_id": 10,
+      "pengguna_id": 15,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-09-30 02:10:00",
+      "updated_at": "2026-09-30 02:10:00"
+    },
+    {
+      "id": 2,
+      "aduan_id": 10,
+      "pengguna_id": 1,
+      "tindakan": "Aduan diteruskan ke Rafi (Teknisi)",
+      "created_at": "2026-09-30 03:00:00",
+      "updated_at": "2026-09-30 03:00:00"
+    },
+    {
+      "id": 3,
+      "aduan_id": 10,
+      "pengguna_id": 2,
+      "tindakan": "Telepon klien (offline) untuk konfirmasi gejala",
+      "created_at": "2026-09-30 04:00:00",
+      "updated_at": "2026-09-30 04:00:00"
+    },
+    {
+      "id": 4,
+      "aduan_id": 10,
+      "pengguna_id": 2,
+      "tindakan": "Ditemukan tabel siswa terkunci, sedang diperbaiki",
+      "created_at": "2026-09-30 07:00:00",
+      "updated_at": "2026-09-30 07:00:00"
+    },
+    {
+      "id": 5,
+      "aduan_id": 9,
+      "pengguna_id": 14,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-09-27 03:00:00",
+      "updated_at": "2026-09-27 03:00:00"
+    },
+    {
+      "id": 6,
+      "aduan_id": 9,
+      "pengguna_id": 2,
+      "tindakan": "Database sudah selesai diperbaiki",
+      "created_at": "2026-09-27 08:00:00",
+      "updated_at": "2026-09-27 08:00:00"
+    },
+    {
+      "id": 7,
+      "aduan_id": 9,
+      "pengguna_id": 2,
+      "tindakan": "Dipantau sampai stabil",
+      "created_at": "2026-09-28 01:00:00",
+      "updated_at": "2026-09-28 01:00:00"
+    },
+    {
+      "id": 8,
+      "aduan_id": 8,
+      "pengguna_id": 13,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-09-28 01:00:00",
+      "updated_at": "2026-09-28 01:00:00"
+    },
+    {
+      "id": 9,
+      "aduan_id": 8,
+      "pengguna_id": 4,
+      "tindakan": "Akan dikoordinasikan dengan tim server",
+      "created_at": "2026-09-28 02:00:00",
+      "updated_at": "2026-09-28 02:00:00"
+    },
+    {
+      "id": 10,
+      "aduan_id": 8,
+      "pengguna_id": 4,
+      "tindakan": "Server sudah dioptimalkan, login normal",
+      "created_at": "2026-09-28 06:00:00",
+      "updated_at": "2026-09-28 06:00:00"
+    },
+    {
+      "id": 11,
+      "aduan_id": 7,
+      "pengguna_id": 12,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-09-20 02:00:00",
+      "updated_at": "2026-09-20 02:00:00"
+    },
+    {
+      "id": 12,
+      "aduan_id": 7,
+      "pengguna_id": 2,
+      "tindakan": "Index database ditambahkan, selesai",
+      "created_at": "2026-09-20 09:00:00",
+      "updated_at": "2026-09-20 09:00:00"
+    },
+    {
+      "id": 13,
+      "aduan_id": 5,
+      "pengguna_id": 10,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-09-18 02:00:00",
+      "updated_at": "2026-09-18 02:00:00"
+    },
+    {
+      "id": 14,
+      "aduan_id": 5,
+      "pengguna_id": 3,
+      "tindakan": "CSS diperbaiki, selesai",
+      "created_at": "2026-09-18 07:00:00",
+      "updated_at": "2026-09-18 07:00:00"
+    },
+    {
+      "id": 15,
+      "aduan_id": 11,
+      "pengguna_id": 16,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-10-01 00:30:00",
+      "updated_at": "2026-10-01 00:30:00"
+    },
+    {
+      "id": 16,
+      "aduan_id": 12,
+      "pengguna_id": 17,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-10-20 01:00:00",
+      "updated_at": "2026-10-20 01:00:00"
+    },
+    {
+      "id": 17,
+      "aduan_id": 12,
+      "pengguna_id": 1,
+      "tindakan": "Prioritas Urgent, diteruskan ke Bayu (Teknisi)",
+      "created_at": "2026-10-20 01:30:00",
+      "updated_at": "2026-10-20 01:30:00"
+    },
+    {
+      "id": 18,
+      "aduan_id": 1,
+      "pengguna_id": 5,
+      "tindakan": "Aduan dikirim",
+      "created_at": "2026-09-08 02:00:00",
+      "updated_at": "2026-09-08 02:00:00"
+    },
+    {
+      "id": 19,
+      "aduan_id": 1,
+      "pengguna_id": 4,
+      "tindakan": "IP statis printer diatur ulang, selesai",
+      "created_at": "2026-09-15 07:00:00",
+      "updated_at": "2026-09-15 07:00:00"
+    }
+  ],
+  "solusi_aduan": [
+    {
+      "id": 1,
+      "aduan_id": 1,
+      "masalah": "Printer lab tidak terdeteksi di jaringan",
+      "solusi": "IP statis printer diatur ulang sehingga terdeteksi kembali oleh semua komputer lab.",
+      "tanggal_selesai": "2026-09-15 07:00:00",
+      "created_at": "2026-09-15 07:00:00",
+      "updated_at": "2026-09-15 07:00:00"
+    },
+    {
+      "id": 2,
+      "aduan_id": 2,
+      "masalah": "Tiga akun guru tidak bisa masuk",
+      "solusi": "Kata sandi akun direset oleh teknisi dan guru diminta menggantinya saat masuk pertama.",
+      "tanggal_selesai": "2026-09-02 04:00:00",
+      "created_at": "2026-09-02 04:00:00",
+      "updated_at": "2026-09-02 04:00:00"
+    },
+    {
+      "id": 3,
+      "aduan_id": 3,
+      "masalah": "Data hasil import siswa tidak muncul",
+      "solusi": "Data hasil import diperiksa dan dimuat ulang ke tabel siswa sampai tampil lengkap.",
+      "tanggal_selesai": "2026-08-03 09:00:00",
+      "created_at": "2026-08-03 09:00:00",
+      "updated_at": "2026-08-03 09:00:00"
+    },
+    {
+      "id": 4,
+      "aduan_id": 4,
+      "masalah": "Nama siswa kosong pada surat keterangan",
+      "solusi": "Template surat diperbaiki agar kolom nama terisi dari data siswa.",
+      "tanggal_selesai": "2026-09-09 08:00:00",
+      "created_at": "2026-09-09 08:00:00",
+      "updated_at": "2026-09-09 08:00:00"
+    },
+    {
+      "id": 5,
+      "aduan_id": 5,
+      "masalah": "Menu tertutup di layar kecil",
+      "solusi": "CSS diperbaiki sehingga menu tampil rapi di layar HP.",
+      "tanggal_selesai": "2026-09-18 07:00:00",
+      "created_at": "2026-09-18 07:00:00",
+      "updated_at": "2026-09-18 07:00:00"
+    },
+    {
+      "id": 6,
+      "aduan_id": 6,
+      "masalah": "Query failed pada rekap nilai",
+      "solusi": "Query rekap nilai diperbaiki dan koneksi database diperiksa ulang.",
+      "tanggal_selesai": "2026-09-12 09:30:00",
+      "created_at": "2026-09-12 09:30:00",
+      "updated_at": "2026-09-12 09:30:00"
+    },
+    {
+      "id": 7,
+      "aduan_id": 7,
+      "masalah": "Rekap absensi butuh waktu lama",
+      "solusi": "Index database ditambahkan sehingga rekap absensi jauh lebih cepat.",
+      "tanggal_selesai": "2026-09-20 09:00:00",
+      "created_at": "2026-09-20 09:00:00",
+      "updated_at": "2026-09-20 09:00:00"
+    },
+    {
+      "id": 8,
+      "aduan_id": 8,
+      "masalah": "Login guru butuh sekitar 1 menit",
+      "solusi": "Server dioptimalkan sehingga login kembali normal.",
+      "tanggal_selesai": "2026-09-28 06:00:00",
+      "created_at": "2026-09-28 06:00:00",
+      "updated_at": "2026-09-28 06:00:00"
+    }
+  ],
+  "konsultasi": [
+    {
+      "id": 1,
+      "pengaju_id": 5,
+      "teknisi_id": 2,
+      "topik": "Proyek sistem akademik baru untuk SMK 2",
+      "catatan": "Diundang presentasi di sekolah",
+      "tanggal": "2026-10-08",
+      "jam": "10:00",
+      "status": "Terjadwal",
+      "jumlah_ubah_jadwal": 0,
+      "created_at": "2026-10-01 02:00:00",
+      "updated_at": "2026-10-01 02:00:00"
+    },
+    {
+      "id": 2,
+      "pengaju_id": 6,
+      "teknisi_id": 2,
+      "topik": "Migrasi data siswa tahun ajaran baru",
+      "catatan": "Butuh pendampingan teknisi",
+      "tanggal": "2026-09-05",
+      "jam": "09:00",
+      "status": "Jadi",
+      "jumlah_ubah_jadwal": 0,
+      "created_at": "2026-09-01 02:00:00",
+      "updated_at": "2026-09-01 02:00:00"
+    },
+    {
+      "id": 3,
+      "pengaju_id": 7,
+      "teknisi_id": 2,
+      "topik": "Rencana integrasi data EMIS",
+      "catatan": "Mohon dijadwalkan ulang",
+      "tanggal": "2026-10-14",
+      "jam": "13:00",
+      "status": "Terjadwal",
+      "jumlah_ubah_jadwal": 1,
+      "created_at": "2026-10-03 02:00:00",
+      "updated_at": "2026-10-03 02:00:00"
+    },
+    {
+      "id": 4,
+      "pengaju_id": 8,
+      "teknisi_id": null,
+      "topik": "Konsultasi pengembangan portal sekolah",
+      "catatan": null,
+      "tanggal": "2026-11-03",
+      "jam": "11:00",
+      "status": "Menunggu",
+      "jumlah_ubah_jadwal": 0,
+      "created_at": "2026-10-26 01:00:00",
+      "updated_at": "2026-10-26 01:00:00"
+    },
+    {
+      "id": 5,
+      "pengaju_id": 9,
+      "teknisi_id": null,
+      "topik": "Integrasi jadwal pelajaran",
+      "catatan": "Sudah dibahas lewat telepon",
+      "tanggal": "2026-09-10",
+      "jam": "14:00",
+      "status": "Tidak",
+      "jumlah_ubah_jadwal": 0,
+      "created_at": "2026-09-08 03:00:00",
+      "updated_at": "2026-09-08 03:00:00"
+    }
+  ],
+  "pesan_konsultasi": [
+    {
+      "id": 1,
+      "konsultasi_id": 1,
+      "pengirim_id": 5,
+      "pesan": "Kami ingin konsultasi sistem akademik baru, mohon jadwalnya.",
+      "created_at": "2026-10-01 02:00:00",
+      "updated_at": "2026-10-01 02:00:00"
+    },
+    {
+      "id": 2,
+      "konsultasi_id": 1,
+      "pengirim_id": 1,
+      "pesan": "Baik Bu, jadwal 8 Oktober pukul 10.00 sudah kami konfirmasi.",
+      "created_at": "2026-10-01 03:00:00",
+      "updated_at": "2026-10-01 03:00:00"
+    },
+    {
+      "id": 3,
+      "konsultasi_id": 3,
+      "pengirim_id": 7,
+      "pesan": "Mohon jadwal dipindah karena kepala sekolah berhalangan.",
+      "created_at": "2026-10-07 02:00:00",
+      "updated_at": "2026-10-07 02:00:00"
+    },
+    {
+      "id": 4,
+      "konsultasi_id": 3,
+      "pengirim_id": 1,
+      "pesan": "Jadwal baru 14 Oktober pukul 13.00, ya Bu.",
+      "created_at": "2026-10-07 04:00:00",
+      "updated_at": "2026-10-07 04:00:00"
+    },
+    {
+      "id": 5,
+      "konsultasi_id": 2,
+      "pengirim_id": 6,
+      "pesan": "Terima kasih, konsultasinya sangat membantu.",
+      "created_at": "2026-09-05 06:00:00",
+      "updated_at": "2026-09-05 06:00:00"
+    },
+    {
+      "id": 6,
+      "konsultasi_id": 4,
+      "pengirim_id": 8,
+      "pesan": "Kami mengajukan konsultasi untuk portal sekolah.",
+      "created_at": "2026-10-26 01:00:00",
+      "updated_at": "2026-10-26 01:00:00"
+    }
+  ],
+  "riwayat_konsultasi": [
+    {
+      "id": 1,
+      "konsultasi_id": 1,
+      "aktivitas": "Konsultasi diajukan",
+      "created_at": "2026-10-01 02:00:00",
+      "updated_at": "2026-10-01 02:00:00"
+    },
+    {
+      "id": 2,
+      "konsultasi_id": 1,
+      "aktivitas": "Jadwal dikonfirmasi admin: 8 Oktober 2026 pukul 10:00",
+      "created_at": "2026-10-01 03:00:00",
+      "updated_at": "2026-10-01 03:00:00"
+    },
+    {
+      "id": 3,
+      "konsultasi_id": 2,
+      "aktivitas": "Konsultasi diajukan",
+      "created_at": "2026-09-01 02:00:00",
+      "updated_at": "2026-09-01 02:00:00"
+    },
+    {
+      "id": 4,
+      "konsultasi_id": 2,
+      "aktivitas": "Konsultasi terlaksana",
+      "created_at": "2026-09-05 06:00:00",
+      "updated_at": "2026-09-05 06:00:00"
+    },
+    {
+      "id": 5,
+      "konsultasi_id": 3,
+      "aktivitas": "Konsultasi diajukan",
+      "created_at": "2026-10-03 02:00:00",
+      "updated_at": "2026-10-03 02:00:00"
+    },
+    {
+      "id": 6,
+      "konsultasi_id": 3,
+      "aktivitas": "Jadwal diubah dari 7 Oktober 2026 pukul 10:00 ke 14 Oktober 2026 pukul 13:00 (alasan: kepala sekolah berhalangan hadir)",
+      "created_at": "2026-10-07 04:00:00",
+      "updated_at": "2026-10-07 04:00:00"
+    },
+    {
+      "id": 7,
+      "konsultasi_id": 4,
+      "aktivitas": "Konsultasi diajukan",
+      "created_at": "2026-10-26 01:00:00",
+      "updated_at": "2026-10-26 01:00:00"
+    },
+    {
+      "id": 8,
+      "konsultasi_id": 5,
+      "aktivitas": "Konsultasi diajukan",
+      "created_at": "2026-09-08 03:00:00",
+      "updated_at": "2026-09-08 03:00:00"
+    },
+    {
+      "id": 9,
+      "konsultasi_id": 5,
+      "aktivitas": "Konsultasi tidak dilanjutkan, sudah dibahas lewat telepon",
+      "created_at": "2026-09-10 14:00:00",
+      "updated_at": "2026-09-10 14:00:00"
+    }
+  ],
+  "kuota_konsultasi": [
+    {
+      "id": 1,
+      "diatur_oleh": "1",
+      "tanggal": null,
+      "jam": "09:00",
+      "kuota": 2,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 2,
+      "diatur_oleh": "1",
+      "tanggal": null,
+      "jam": "10:00",
+      "kuota": 2,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 3,
+      "diatur_oleh": "1",
+      "tanggal": null,
+      "jam": "11:00",
+      "kuota": 2,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 4,
+      "diatur_oleh": "1",
+      "tanggal": null,
+      "jam": "13:00",
+      "kuota": 2,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 5,
+      "diatur_oleh": "1",
+      "tanggal": null,
+      "jam": "14:00",
+      "kuota": 2,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    },
+    {
+      "id": 6,
+      "diatur_oleh": "1",
+      "tanggal": null,
+      "jam": "15:00",
+      "kuota": 2,
+      "created_at": "2026-11-06 03:30:43",
+      "updated_at": "2026-11-06 03:30:43"
+    }
+  ],
+  "survei": [
+    {
+      "id": 1,
+      "pengguna_id": 5,
+      "aduan_id": 1,
+      "nilai_keseluruhan": 5,
+      "nilai_respon": 4,
+      "nilai_kemudahan": 5,
+      "nilai_kualitas": 5,
+      "terselesaikan": "Ya",
+      "komentar": "Cepat dan jelas.",
+      "created_at": "2026-09-16 03:00:00",
+      "updated_at": "2026-09-16 03:00:00"
+    },
+    {
+      "id": 2,
+      "pengguna_id": 6,
+      "aduan_id": 2,
+      "nilai_keseluruhan": 5,
+      "nilai_respon": 5,
+      "nilai_kemudahan": 4,
+      "nilai_kualitas": 5,
+      "terselesaikan": "Ya",
+      "komentar": "Tuntas dan dijelaskan penyebabnya.",
+      "created_at": "2026-09-13 03:00:00",
+      "updated_at": "2026-09-13 03:00:00"
+    },
+    {
+      "id": 3,
+      "pengguna_id": 7,
+      "aduan_id": 3,
+      "nilai_keseluruhan": 4,
+      "nilai_respon": 4,
+      "nilai_kemudahan": 4,
+      "nilai_kualitas": 4,
+      "terselesaikan": "Ya",
+      "komentar": null,
+      "created_at": "2026-08-04 03:00:00",
+      "updated_at": "2026-08-04 03:00:00"
+    },
+    {
+      "id": 4,
+      "pengguna_id": 9,
+      "aduan_id": 4,
+      "nilai_keseluruhan": 5,
+      "nilai_respon": 5,
+      "nilai_kemudahan": 5,
+      "nilai_kualitas": 5,
+      "terselesaikan": "Ya",
+      "komentar": "Cepat dan jelas.",
+      "created_at": "2026-09-10 03:00:00",
+      "updated_at": "2026-09-10 03:00:00"
+    },
+    {
+      "id": 5,
+      "pengguna_id": 10,
+      "aduan_id": 5,
+      "nilai_keseluruhan": 4,
+      "nilai_respon": 4,
+      "nilai_kemudahan": 5,
+      "nilai_kualitas": 4,
+      "terselesaikan": "Ya",
+      "komentar": "Menu sudah rapi di HP.",
+      "created_at": "2026-09-19 03:00:00",
+      "updated_at": "2026-09-19 03:00:00"
+    },
+    {
+      "id": 6,
+      "pengguna_id": 12,
+      "aduan_id": 7,
+      "nilai_keseluruhan": 5,
+      "nilai_respon": 5,
+      "nilai_kemudahan": 5,
+      "nilai_kualitas": 5,
+      "terselesaikan": "Ya",
+      "komentar": "Rekap absensi jadi jauh lebih cepat.",
+      "created_at": "2026-09-21 03:00:00",
+      "updated_at": "2026-09-21 03:00:00"
+    }
+  ]
+}
