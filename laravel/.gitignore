@@ -1,0 +1,10 @@
+/vendor
+.env
+.phpunit.result.cache
+/storage/logs/*.log
+/storage/backups
+/.env.production
+/public/uploads/*
+!/public/uploads/.gitkeep
+!/public/uploads/.htaccess
+/storage/app/foto-profil

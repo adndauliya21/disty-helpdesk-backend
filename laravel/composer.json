@@ -1,0 +1,77 @@
+{
+    "name": "disty/helpdesk-laravel",
+    "type": "project",
+    "description": "Back-end Disty HelpDesk dengan Laravel, Eloquent, dan JWT (Modul 6)",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0 || ^12.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Http\\Controllers\\": [
+                "../api",
+                "../auth",
+                "../admin",
+                "../client",
+                "../teknisi"
+            ],
+            "App\\Http\\Middleware\\": "../auth",
+            "App\\Http\\Resources\\": [
+                "../admin",
+                "../client",
+                "../bersama"
+            ],
+            "App\\Models\\": [
+                "../auth",
+                "../api",
+                "../admin",
+                "../client"
+            ],
+            "App\\Support\\": [
+                "../auth",
+                "../bersama",
+                "../admin/support"
+            ],
+            "App\\Enums\\": "../bersama",
+            "App\\Exceptions\\": [
+                "../api",
+                "../auth"
+            ],
+            "App\\Providers\\": "../bersama",
+            "App\\Console\\Commands\\": [
+                "../auth",
+                "../bersama"
+            ],
+            "App\\": "../bersama",
+            "Database\\Seeders\\": "../database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "../tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
