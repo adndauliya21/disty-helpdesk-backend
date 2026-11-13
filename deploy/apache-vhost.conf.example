@@ -1,0 +1,21 @@
+# [MODUL 7] Alternatif Apache (bila server memakai Apache + PHP-FPM / mod_php). laravel/public/.htaccess sudah disediakan proyek.
+# Aktifkan modul:  sudo a2enmod rewrite headers   lalu simpan sebagai /etc/apache2/sites-available/disty-helpdesk.conf
+#   sudo a2ensite disty-helpdesk && sudo apachectl configtest && sudo systemctl reload apache2
+# HTTPS:  sudo certbot --apache -d api.contoh.co.id
+# Hosting bersama (cPanel): arahkan "document root" domain/subdomain ke folder laravel/public/, jangan ke folder induknya.
+
+<VirtualHost *:80>
+    ServerName api.contoh.co.id
+    DocumentRoot /var/www/distyhelpdesk/laravel/public
+
+    <Directory /var/www/distyhelpdesk/laravel/public>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "DENY"
+
+    ErrorLog ${APACHE_LOG_DIR}/disty-error.log
+    CustomLog ${APACHE_LOG_DIR}/disty-access.log combined
+</VirtualHost>
