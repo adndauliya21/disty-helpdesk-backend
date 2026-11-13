@@ -1,0 +1,34 @@
+# [MODUL 7] Menjalankan API + MySQL dengan satu perintah: docker compose up -d --build
+# Salin laravel/.env.production.example menjadi laravel/.env dan isi DB_PASSWORD serta JWT_SECRET lebih dulu.
+services:
+  api:
+    build: .
+    env_file: laravel/.env
+    environment:
+      DB_HOST: db
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - uploads:/var/www/html/laravel/public/uploads
+    restart: unless-stopped
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE:-disty_helpdesk}
+      MYSQL_USER: ${DB_USERNAME:-disty}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-ganti-ini}
+    volumes:
+      - dbdata:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+volumes:
+  uploads:
+  dbdata:

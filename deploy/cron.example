@@ -1,0 +1,3 @@
+# [MODUL 7] Jadwal backup database otomatis. Pasang dengan:  crontab -e  (sebagai pengguna pemilik folder aplikasi)
+# Backup tiap hari pukul 02:00, hasilnya di laravel/storage/backups (14 hari terakhir disimpan), catatan di laravel/storage/logs/backup.log.
+0 2 * * * cd /var/www/distyhelpdesk && ./deploy/backup-db.sh >> laravel/storage/logs/backup.log 2>&1

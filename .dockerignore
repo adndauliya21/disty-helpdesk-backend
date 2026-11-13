@@ -1,0 +1,7 @@
+laravel/vendor
+node_modules
+node-backend/node_modules
+laravel/.env
+laravel/storage/logs/*
+latihan
+.git

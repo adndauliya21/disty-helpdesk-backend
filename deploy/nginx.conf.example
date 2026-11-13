@@ -1,0 +1,45 @@
+# [MODUL 7] Nginx untuk API Disty HelpDesk (Laravel + PHP-FPM).
+# Dipasang oleh deploy/setup-vps-ubuntu.sh (placeholder __DOMAIN__, __APP_DIR__, __PHP_SOCK__ diisi otomatis).
+# Manual:  sudo cp deploy/nginx.conf.example /etc/nginx/sites-available/disty-helpdesk
+#          (ganti tiga placeholder)  lalu  sudo ln -s ../sites-available/disty-helpdesk /etc/nginx/sites-enabled/
+#          sudo nginx -t && sudo systemctl reload nginx
+# HTTPS: jalankan  sudo certbot --nginx -d __DOMAIN__  , certbot menambahkan blok 443 dan pengalihan http -> https sendiri.
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name __DOMAIN__;
+
+    # Hanya folder laravel/public/ yang terlihat dari luar. Kode, laravel/.env, dan laravel/storage/ ada di atasnya, tidak terjangkau.
+    root __APP_DIR__/laravel/public;
+    index index.html index.php;         # index.html = tampilan frontend, index.php = pintu masuk API
+
+    charset utf-8;
+    client_max_body_size 6m;            # foto unggahan maksimal 5 MB (dicek UploadController), sisanya untuk header dan field form
+
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header X-Frame-Options "DENY" always;
+    add_header Referrer-Policy "no-referrer" always;
+    # Aktifkan setelah HTTPS berjalan dan sudah dicoba:
+    # add_header Strict-Transport-Security "max-age=31536000" always;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    # Folder unggahan foto: skrip tidak boleh dijalankan dari sini (harus sebelum blok .php di bawah).
+    location ~* ^/uploads/.*\.(php|phtml|phar)$ {
+        return 403;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:__PHP_SOCK__;
+        fastcgi_hide_header X-Powered-By;
+    }
+
+    # Berkas tersembunyi (.env, .git, dst.) tidak boleh dilayani. .well-known dikecualikan untuk sertifikat.
+    location ~ /\.(?!well-known) {
+        deny all;
+    }
+}
