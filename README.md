@@ -270,4 +270,4 @@ Isi front-end (`index.html`, `login.html`, `css/`, `js/`, `assets/`, `vendor/` b
 Satu proyek, satu domain: halaman di `/`, API di `/api/v1`. `laravel/vendor/` = Composer, `laravel/public/vendor/` = pustaka front-end.
 Back-end latihan lama (Node di `src/*.js`, PHP biasa di `api/`) tidak ikut digabung. Jangan buat folder `laravel/public/api/`, nanti menutupi rute `/api/v1`.
 Setelah `composer install` dan `php artisan serve --port=3000` (dari dalam `laravel/`), buka `http://localhost:3000/index.html`. Di Apache alamat `/` otomatis ke `index.html`.
-Untuk memakai versi Node.js, masuk ke `node-backend/`, jalankan `npm install` lalu `npm start`, dan buka `http://localhost:3000/`. Node menyajikan folder `laravel/public/` yang sama dan memakai database yang sama, jadi tampilannya tidak berubah. Jangan jalankan dua versi di port yang sama.
+Untuk memakai versi Node.js, masuk ke `node-backend/`, jalankan `npm install` lalu `npm start`, dan buka `http://localhost:3000/`. Node menyajikan folder `laravel/public/` yang sama dan memakai database yang sama, jadi tampilannya tidak berubah.
