@@ -251,3 +251,8 @@ Saat login, frontend memanggil 8 endpoint sekaligus: `/tickets`, `/consultations
 Bila salah satu gagal, login ikut gagal.
 
 Di produksi, `CORS_ORIGIN` harus diisi alamat frontend yang persis. Nilai bawaan `*` hanya untuk pengembangan.
+
+## Tim
+
+- Adinda Auliya (Back-end): https://github.com/adndauliya21
+- Dwi Selvi Yanti (Front-end): https://github.com/DwiSelviYanti
