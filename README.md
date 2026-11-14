@@ -13,12 +13,17 @@ Panduan deploy ada di folder `deploy/` (mulai dari `deploy/00-BACA-DULU.md`).
 
 | Bagian | Status | Bukti |
 |---|---|---|
+| Modul 1 (Analisis kebutuhan sistem) | Sebagian: ERD awal selesai, dokumen kebutuhan menyusul | File `database/ERD_DISTY_1.drawio` |
 | Modul 2 (Bahasa pemrograman back-end, PHP) | Selesai | Folder `latihan/php/`, jalankan `php uji.php` (11 pemeriksaan) |
 | Modul 3 (Back-end JavaScript, Node.js) | Selesai | Folder `node-backend/`, jalankan `npm test` di folder tersebut |
+| Modul 4 (Database dan SQL) | Selesai | Folder `database/`: migrasi, seeder, dan berkas SQL |
+| Modul 5 (Pemrograman API) | Selesai | Bagian *Endpoint*, koleksi Postman di folder `postman/` |
 | Modul 6 (Laravel) | Selesai | Kode aplikasi di folder `auth/`, `api/`, `admin/`, `client/`, `teknisi/`, `bersama/`, `config/`, `database/`, `tests/` (sejajar dengan `laravel/`) |
 | Modul 7 (Deployment) | Dokumen, skrip, dan Docker selesai; bukti deploy di server berupa tangkapan layar pada laporan | folder `deploy/` (termasuk `cek-deploy.sh`), `Dockerfile`, `docker-compose.yml` |
 | Modul 8 (Integrasi dengan front-end) | Selesai, semua endpoint yang dipakai frontend sudah ada (termasuk unggah foto dan ganti kata sandi) | Bagian *Endpoint*, `tests/Feature/UnggahFotoDanSandiTest.php` |
 | Modul 9 (Version Control, Git) | Selesai | Riwayat commit, branch, pull request, issue, dan release di GitHub, aturan di bagian *Alur kerja Git* |
+| Modul 10 (Uji coba dan implementasi sistem) | Selesai | Folder `tests/` dan `npm test` di folder `node-backend/` |
+| Modul 11 (Dokumentasi dan pelaporan) | Sebagian: README selesai, laporan akhir dan presentasi menyusul | `README.md` dan koleksi Postman |
 | Pengujian otomatis Laravel | Test memakai SQLite di memori | `php artisan test` |
 | Pengujian otomatis Node.js | Test unit dan integrasi (integrasi memakai MySQL) | `npm test` di folder `node-backend/` |
 
