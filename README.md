@@ -19,6 +19,7 @@ Panduan deploy ada di folder `deploy/` (mulai dari `deploy/00-BACA-DULU.md`).
 | Modul 6 (Laravel) | Selesai | Kode aplikasi di folder `auth/`, `api/`, `admin/`, `client/`, `teknisi/`, `bersama/`, `config/`, `database/`, `tests/` (sejajar dengan `laravel/`) |
 | Modul 7 (Deployment) | Dokumen, skrip, dan Docker selesai; bukti deploy di server berupa tangkapan layar pada laporan | folder `deploy/` (termasuk `cek-deploy.sh`), `Dockerfile`, `docker-compose.yml` |
 | Modul 8 (Integrasi dengan front-end) | Selesai, semua endpoint yang dipakai frontend sudah ada (termasuk unggah foto dan ganti kata sandi) | Bagian *Endpoint*, `tests/Feature/UnggahFotoDanSandiTest.php` |
+| Modul 9 (Version Control, Git) | Selesai | Riwayat commit, branch, pull request, issue, dan release di GitHub, aturan di bagian *Alur kerja Git* |
 | Pengujian otomatis Laravel | Test memakai SQLite di memori | `php artisan test` |
 | Pengujian otomatis Node.js | Test unit dan integrasi (integrasi memakai MySQL) | `npm test` di folder `node-backend/` |
 
@@ -225,6 +226,15 @@ Namespace PHP tidak berubah. `laravel/composer.json` memetakan awalan `App\\...`
 - Jangan ikutkan file `.env` saat mengirim atau mengunggah proyek. Isinya password database dan `JWT_SECRET`.
 
 ## Integrasi dengan Frontend
+
+## Alur kerja Git
+
+- Branch main hanya diubah lewat pull request.
+- Nama branch memakai awalan feature/, fix/, docs/, test/, atau ci/.
+- Pesan commit memakai awalan feat:, fix:, docs:, test:, atau chore:.
+- Satu pull request membahas satu topik, dengan judul dan deskripsi yang jelas, lalu direview sebelum merge.
+- Tugas dan bug dicatat di Issues, lalu dihubungkan ke pull request dengan Closes #nomor.
+- Versi rilis ditandai dengan tag, misalnya v1.0.0.
 
 Frontend ada di repo terpisah: https://github.com/DwiSelviYanti/disty-helpdesk-frontend-
 
