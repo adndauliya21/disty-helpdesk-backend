@@ -1,17 +1,20 @@
-   .env
-   .env.*
-   !.env.example
-   !.env.production.example
-   *.sqlite*
-   *.log
-   .phpunit.result.cache
-   laravel/vendor/
-   laravel/storage/logs/
-   laravel/storage/app/foto-profil/
-   laravel/public/uploads/*
-   !laravel/public/uploads/.gitkeep
-   !laravel/public/uploads/.htaccess
-   node-backend/node_modules/
-   node-backend/.env
-   .idea/
-   .vscode/
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.sqlite*
+*.log
+.phpunit.result.cache
+laravel/vendor/
+laravel/storage/logs/
+laravel/storage/app/foto-profil/
+laravel/public/uploads/*
+!laravel/public/uploads/.gitkeep
+!laravel/public/uploads/.htaccess
+node-backend/node_modules/
+node-backend/.env
+.idea/
+.vscode/
+/CLAUDE.md
+/PERINTAH-CLAUDE-SELANJUTNYA.md
+/00-BACA-DULU.md
