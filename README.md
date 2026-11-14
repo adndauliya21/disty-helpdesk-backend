@@ -1,5 +1,4 @@
-# Disty HelpDesk, Back-End (Laravel dan Node.js)
-
+# Disty HelpDesk Backend API
 Back-end untuk aplikasi Disty HelpDesk (PT Disty Teknologi Indonesia). Ada dua versi back-end yang berbagi **database MySQL yang sama** dan **kontrak API yang sama**:
 
 - **Laravel 12** dengan Eloquent ORM (folder utama ini), untuk Modul 6 sampai 8.
