@@ -1,42 +1,31 @@
-# Disty HelpDesk, Back-End (Laravel dan Node.js)
-
-Back-end untuk aplikasi Disty HelpDesk (PT Disty Teknologi Indonesia). Ada dua versi back-end yang berbagi **database MySQL yang sama**, **kontrak API yang sama**, dan **tampilan (folder `laravel/public/`) yang sama**:
+# Disty HelpDesk Backend API (Laravel dan Node.js)
+Back-end untuk aplikasi Disty HelpDesk (PT Disty Teknologi Indonesia). Ada dua versi back-end yang berbagi **database MySQL yang sama** dan **kontrak API yang sama**:
 
 - **Laravel 12** dengan Eloquent ORM (folder utama ini), untuk Modul 6 sampai 8.
 - **Node.js** tanpa framework (folder [`node-backend/`](node-backend/README.md)), untuk Modul 3.
-Back-end ini dan front-end (`../disty-helpdesk-frontend`) adalah **satu proyek web** yang dikerjakan bersama dalam satu kelompok dan nanti di-hosting bersama.
-Front-end memanggil API ini lewat REST (JSON). Aturan bentuk datanya ada di `../disty-helpdesk-frontend/docs/API-KONTRAK.md`.
+Back-end ini dan [front-end](https://github.com/DwiSelviYanti/disty-helpdesk-frontend-) adalah **satu proyek web** yang dikerjakan bersama dalam satu kelompok.
+Front-end memanggil API ini lewat REST (JSON). Bentuk datanya dijelaskan di bagian *Endpoint* dan *Integrasi dengan Frontend* di bawah.
 
-Skema database mengikuti ERD dari analis (13 tabel). Penjelasan lengkap ada di [DATABASE-ERD.md](docs/DATABASE-ERD.md).
-Panduan deploy ada di [DEPLOY.md](docs/DEPLOY.md).
-
-## Peta folder front-end (`laravel/public/`), semua kode aplikasi ada di bawah folder `helpdesk/`
-
-| Folder / berkas | Isi |
-|---|---|
-| `index.html`, `login.html` | Dua halaman: beranda publik dan masuk |
-| `helpdesk/core/` | Inti aplikasi: `state-dan-data.js` (state global dan data demo), `ui-helper.js` (ikon, helper, dropdown), `app-utama.js` (halaman masuk, beranda, kerangka, tiket, konsultasi) |
-| `helpdesk/api/` | `api-klien.js` (konfigurasi dan klien REST), `api-tiruan.js` (backend tiruan untuk mode tanpa server) |
-| `helpdesk/admin/` | `halaman-admin.js`: halaman peran Admin (penugasan, tim teknisi, laporan) |
-| `helpdesk/client/` | `halaman-klien.js`: halaman peran Klien (buat aduan, pusat bantuan, survei) |
-| `helpdesk/technician/` | `halaman-teknisi.js`: halaman peran Teknisi (tugas, solusi, aduan telepon) |
-| `helpdesk/settings/` | `pengaturan-akun.js` (tema, sandi, foto), `bahasa.js` (ID/EN) |
-| `helpdesk/components/` | Komponen React: `StatCards`, `TabelAduan`, `ChipFilter`, `mount.js`; `hooks/` (`useCountUp`), `router/` (`Router`, `MenuNav`) |
-| `helpdesk/effects/` | `efek-tombol.js` (riak tombol), `tabel-satu-baris.js` (kolom pendek satu baris) |
-| `helpdesk/entry/` | Titik masuk: `beranda.js` (index.html), `login.js` (login.html) |
-| `helpdesk/css/` | `gaya-utama.css`, `tema-gelap.css`, `penyesuaian.css` (dimuat terakhir). `css/tailwind.css` tetap di `css/` karena hasil build |
+Skema database mengikuti ERD dari analis (13 tabel). File ERD ada di `database/ERD_DISTY_1.drawio`, migrasi dan seeder ada di folder `database/`.
+Panduan deploy ada di folder `deploy/` (mulai dari `deploy/00-BACA-DULU.md`).
 
 ## Status singkat
 
 | Bagian | Status | Bukti |
 |---|---|---|
+| Modul 1 (Analisis kebutuhan sistem) | Sebagian: ERD awal selesai, dokumen kebutuhan menyusul | File `database/ERD_DISTY_1.drawio` |
 | Modul 2 (Bahasa pemrograman back-end, PHP) | Selesai | Folder `latihan/php/`, jalankan `php uji.php` (11 pemeriksaan) |
-| Modul 3 (Back-end JavaScript, Node.js) | Selesai | Folder `node-backend/`, 73 test, uji kesetaraan dengan Laravel |
+| Modul 3 (Back-end JavaScript, Node.js) | Selesai | Folder `node-backend/`, jalankan `npm test` di folder tersebut |
+| Modul 4 (Database dan SQL) | Selesai | Folder `database/`: migrasi, seeder, dan berkas SQL |
+| Modul 5 (Pemrograman API) | Selesai | Bagian *Endpoint*, koleksi Postman di folder `postman/` |
 | Modul 6 (Laravel) | Selesai | Kode aplikasi di folder `auth/`, `api/`, `admin/`, `client/`, `teknisi/`, `bersama/`, `config/`, `database/`, `tests/` (sejajar dengan `laravel/`) |
-| Modul 7 (Deployment) | Dokumen, skrip, dan Docker selesai; bukti deploy di server berupa tangkapan layar pada laporan | `docs/DEPLOY.md`, folder `deploy/` (termasuk `cek-deploy.sh`), `Dockerfile`, `docker-compose.yml` |
-| Modul 8 (Integrasi dengan front-end) | Selesai, semua endpoint di `API-KONTRAK.md` sudah ada (termasuk unggah foto dan ganti kata sandi) | Bagian *Endpoint*, `tests/Feature/UnggahFotoDanSandiTest.php` |
-| Pengujian otomatis Laravel | 137 test lulus (SQLite di memori), 133 di antaranya juga lulus di MySQL | `php artisan test` |
-| Pengujian otomatis Node.js | 73 test lulus (44 unit, 29 integrasi dengan MySQL) | `npm test` di folder `node-backend/` |
+| Modul 7 (Deployment) | Dokumen, skrip, dan Docker selesai; bukti deploy di server berupa tangkapan layar pada laporan | folder `deploy/` (termasuk `cek-deploy.sh`), `Dockerfile`, `docker-compose.yml` |
+| Modul 8 (Integrasi dengan front-end) | Selesai, semua endpoint yang dipakai frontend sudah ada (termasuk unggah foto dan ganti kata sandi) | Bagian *Endpoint*, `tests/Feature/UnggahFotoDanSandiTest.php` |
+| Modul 9 (Version Control, Git) | Selesai | Riwayat commit, branch, pull request, issue, dan release di GitHub, aturan di bagian *Alur kerja Git* |
+| Modul 10 (Uji coba dan implementasi sistem) | Selesai | Folder `tests/` dan `npm test` di folder `node-backend/` |
+| Modul 11 (Dokumentasi dan pelaporan) | Sebagian: README selesai, laporan akhir dan presentasi menyusul | `README.md` dan koleksi Postman |
+| Pengujian otomatis Laravel | Test memakai SQLite di memori | `php artisan test` |
+| Pengujian otomatis Node.js | Test unit dan integrasi (integrasi memakai MySQL) | `npm test` di folder `node-backend/` |
 
 ## Syarat dan cara menjalankan
 
@@ -50,7 +39,7 @@ Di PHP 8.3 perintah `composer install` akan gagal. Ada dua jalan keluar:
 
 Langkah menjalankan:
 
-    cd distyhelpdesk/laravel        # semua perintah composer dan artisan dari sini
+    cd laravel                      # semua perintah composer dan artisan dari sini
     composer install
     cp .env.example .env            # isi DB_USERNAME dan DB_PASSWORD sesuai MySQL kamu
     php artisan key:generate
@@ -66,7 +55,7 @@ Folder `database/migrations/` berisi **dua file**: `2026_11_01_000001_buat_skema
 Kalau masih ada file migration lama berawalan `2026_10_`, hapus semuanya. Kalau tidak, `migrate` gagal dengan pesan `Table 'instansi' already exists`, dan hampir semua test ikut gagal.
 
 Menjalankan pengujian: `php artisan test` (SQLite di memori, butuh ekstensi `pdo_sqlite`).
-Hasil terakhir: 161 test, 1175 assertion, 159 lulus dan 2 gagal. Empat test di antaranya memakai perintah khusus SQLite (`PRAGMA`), jadi hanya berjalan di SQLite. `migrate:fresh --seed` dan seluruh endpoint juga sudah dicoba di MariaDB 10.11 memakai `database/disty_helpdesk.sql`.
+Beberapa test memakai perintah khusus SQLite (`PRAGMA`), jadi hanya berjalan di SQLite. `migrate:fresh --seed` dan seluruh endpoint juga sudah dicoba di MariaDB 10.11 memakai `database/disty_helpdesk.sql`.
 
 ## Akun awal (khusus pengembangan)
 
@@ -100,6 +89,8 @@ Kolom **Akses**: *terbuka* berarti tanpa token. Selain itu wajib header `Authori
 |---|---|---|---|
 | GET | `/ping` | terbuka | cek server hidup |
 | POST | `/auth/login` | terbuka | `{ email, password }` -> `{ token, tokenType, expiresIn, user }`, `role` huruf kecil (`klien`, `teknisi`, `admin`) |
+| POST | `/auth/activation/request` | terbuka | `{ email }` -> 202. Masih kerangka, lihat *Batasan* |
+| POST | `/auth/activation/verify` | terbuka | `{ email, code }` -> `{ activated: true }`. Masih kerangka |
 | POST | `/auth/logout` | semua peran | 204. Token tidak dicabut di server |
 | GET | `/auth/me` | semua peran | profil terbaru dari database |
 | PUT | `/me` | semua peran | `{ name, email, phone, photo }`, 409 bila email dipakai akun lain. Klien harus memakai domain instansi terdaftar. `photo`: alamat dari `/uploads`, `null` = hapus, tidak dikirim = tidak berubah, 422 bila alamat bukan hasil unggah |
@@ -218,39 +209,13 @@ Perbedaan kecil yang disengaja:
     postman/                      koleksi Postman khusus Laravel
     node-backend/                 versi Node.js dari API yang sama (Modul 3), dengan README sendiri
     deploy/                       skrip dan contoh konfigurasi server
-    docs/                         dokumentasi: DATABASE-ERD.md, DEPLOY.md, REACT-TAILWIND.md, PETA-PEMINDAHAN.md
-    tailwind/                     bahan build Tailwind
     latihan/                      latihan PHP murni (Modul 2)
 
 Namespace PHP tidak berubah. `laravel/composer.json` memetakan awalan `App\\...` ke folder-folder di atas lewat jalur `../xxx`. Setiap folder punya `00-BACA-DULU.md`.
 
-## Menjalankan bersama front-end
-
-Front-end adalah berkas statis (HTML, CSS, JS). Konfigurasinya ada di `laravel/public/helpdesk/api/api-klien.js`, objek `API_CONFIG`:
-
-- Di `localhost` mode bawaannya `auto`. Front-end mengecek `POST {baseUrl}/uploads`. Bila membalas 401, 403, atau 422 maka pakai server asli (mode `live`), selain itu pakai server tiruan (`api/api-tiruan.js`).
-- Di domain sungguhan (hosting) mode dipaksa `live`.
-- `baseUrl` bawaannya relatif, yaitu `api/v1`. Untuk memakai back-end Laravel yang beralamat lain, ubah menjadi alamat penuh, misalnya `http://localhost:3000/api/v1` atau `https://api.contoh.co.id/api/v1`.
-
-Laravel sekarang punya rute `/uploads` (dilindungi login, jadi tanpa token membalas 401). Karena itu mode `auto` di `localhost` otomatis memilih `live` selama Laravel menyala, dan memilih `mock` bila Laravel mati.
-
-Langkah mencoba:
-
-    # terminal 1: back-end
-    cd distyhelpdesk/laravel
-    php artisan migrate:fresh --seed
-    php artisan serve --port=3000
-
-    # terminal 2: front-end sebagai berkas statis
-    cd disty-helpdesk-frontend
-    npx serve -l 5500
-
-CORS: isi `CORS_ORIGIN=http://localhost:5500` di `laravel/.env` back-end. Bawaan `*` hanya untuk pengembangan. Di produksi isi dengan alamat front-end yang persis (lihat `docs/DEPLOY.md`).
-
-Saat login, front-end memanggil `Api.muatSemua()`, yaitu 8 endpoint sekaligus: `/tickets`, `/consultations`, `/consultation-quota`, `/technicians`, `/surveys/me`, `/knowledge-base`, `/institutions`, `/solutions`. Bila salah satu gagal, login ikut gagal.
-
 ## Batasan yang diketahui
 
+- **Aktivasi akun masih kerangka.** `POST /auth/activation/request` tidak mengirim email dan tidak menyimpan kode. `verify` hanya memeriksa panjang kode (4 sampai 8 karakter). Aktivasi tidak memengaruhi login.
 - **`/institutions` membaca berkas JSON**, bukan tabel `instansi` (yang berisi 20 baris).
 - **Logout tidak mencabut token.** Token berlaku 8 jam. Untuk mencabut semua token sekaligus, ganti `JWT_SECRET` lalu `php artisan config:cache`.
 - **Belum ada pembatasan percobaan login** (rate limiting).
@@ -264,10 +229,35 @@ Saat login, front-end memanggil `Api.muatSemua()`, yaitu 8 endpoint sekaligus: `
 - Di produksi isi `JWT_SECRET` dengan teks acak panjang dan ganti semua kata sandi awal. Bila `JWT_SECRET` masih bawaan di `APP_ENV=production`, semua permintaan web ditolak dengan 500. Perintah `php artisan disty:periksa-produksi` memeriksa semua syarat produksi.
 - Jangan ikutkan file `.env` saat mengirim atau mengunggah proyek. Isinya password database dan `JWT_SECRET`.
 
-## Front-end sudah digabung ke `laravel/public/`
+## Integrasi dengan Frontend
 
-Isi front-end (`index.html`, `login.html`, `css/`, `js/`, `assets/`, `vendor/` berisi Bootstrap dan React) ada di `laravel/public/`.
-Satu proyek, satu domain: halaman di `/`, API di `/api/v1`. `laravel/vendor/` = Composer, `laravel/public/vendor/` = pustaka front-end.
-Back-end latihan lama (Node di `src/*.js`, PHP biasa di `api/`) tidak ikut digabung. Jangan buat folder `laravel/public/api/`, nanti menutupi rute `/api/v1`.
-Setelah `composer install` dan `php artisan serve --port=3000` (dari dalam `laravel/`), buka `http://localhost:3000/index.html`. Di Apache alamat `/` otomatis ke `index.html`.
-Untuk memakai versi Node.js, masuk ke `node-backend/`, jalankan `npm install` lalu `npm start`, dan buka `http://localhost:3000/`. Node menyajikan folder `laravel/public/` yang sama dan memakai database yang sama, jadi tampilannya tidak berubah.
+## Alur kerja Git
+
+- Branch main hanya diubah lewat pull request.
+- Nama branch memakai awalan feature/, fix/, docs/, test/, atau ci/.
+- Pesan commit memakai awalan feat:, fix:, docs:, test:, atau chore:.
+- Satu pull request membahas satu topik, dengan judul dan deskripsi yang jelas, lalu direview sebelum merge.
+- Tugas dan bug dicatat di Issues, lalu dihubungkan ke pull request dengan Closes #nomor.
+- Versi rilis ditandai dengan tag, misalnya v1.0.0.
+
+Frontend ada di repo terpisah: https://github.com/DwiSelviYanti/disty-helpdesk-frontend-
+
+Cara menghubungkan:
+
+1. Jalankan backend: `php artisan migrate:fresh --seed`, lalu `php artisan serve --port=3000`
+2. Isi `CORS_ORIGIN` di `laravel/.env` dengan alamat frontend, misalnya `http://localhost:5500`
+3. Di frontend, ubah `baseUrl` pada konfigurasi API menjadi `http://localhost:3000/api/v1`
+4. Jalankan frontend sebagai file statis, misalnya `npx serve -l 5500`
+5. Login memakai akun demo di bagian *Akun awal* di atas
+
+Frontend memanggil REST API berformat JSON.
+Sukses dibalas `{ "data": ... }`, gagal dibalas `{ "error": { "code", "message", "details" } }`.
+Saat login, frontend memanggil 8 endpoint sekaligus: `/tickets`, `/consultations`, `/consultation-quota`, `/technicians`, `/surveys/me`, `/knowledge-base`, `/institutions`, dan `/solutions`.
+Bila salah satu gagal, login ikut gagal.
+
+Di produksi, `CORS_ORIGIN` harus diisi alamat frontend yang persis. Nilai bawaan `*` hanya untuk pengembangan.
+
+## Tim
+
+- Adinda Auliya (Back-end): https://github.com/adndauliya21
+- Dwi Selvi Yanti (Front-end): https://github.com/DwiSelviYanti
