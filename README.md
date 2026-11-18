@@ -13,7 +13,7 @@ Panduan deploy ada di folder `deploy/` (mulai dari `deploy/00-BACA-DULU.md`).
 
 | Bagian | Status | Bukti |
 |---|---|---|
-| Modul 1 (Analisis kebutuhan sistem) | Sebagian: ERD awal selesai, dokumen kebutuhan menyusul | File `database/ERD_DISTY_1.drawio` |
+| Modul 1 (Analisis kebutuhan sistem) | Selesai | `docs/01-analisis-kebutuhan.md` dan `database/ERD_DISTY_1.drawio` |
 | Modul 2 (Bahasa pemrograman back-end, PHP) | Selesai | Folder `latihan/php/`, jalankan `php uji.php` (11 pemeriksaan) |
 | Modul 3 (Back-end JavaScript, Node.js) | Selesai | Folder `node-backend/`, jalankan `npm test` di folder tersebut |
 | Modul 4 (Database dan SQL) | Selesai | Folder `database/`: migrasi, seeder, dan berkas SQL |
@@ -23,7 +23,7 @@ Panduan deploy ada di folder `deploy/` (mulai dari `deploy/00-BACA-DULU.md`).
 | Modul 8 (Integrasi dengan front-end) | Selesai, semua endpoint yang dipakai frontend sudah ada (termasuk unggah foto dan ganti kata sandi) | Bagian *Endpoint*, `tests/Feature/UnggahFotoDanSandiTest.php` |
 | Modul 9 (Version Control, Git) | Selesai | Riwayat commit, branch, pull request, issue, dan release di GitHub, aturan di bagian *Alur kerja Git* |
 | Modul 10 (Uji coba dan implementasi sistem) | Selesai | Folder `tests/` dan `npm test` di folder `node-backend/` |
-| Modul 11 (Dokumentasi dan pelaporan) | Sebagian: README selesai, laporan akhir dan presentasi menyusul | `README.md` dan koleksi Postman |
+| Modul 11 (Dokumentasi dan pelaporan) | Dokumen siap: API, database, draf laporan akhir, kerangka presentasi. Bukti deploy dan tangkapan layar diisi tim | `docs/` (mulai dari `docs/README.md`), `README.md`, koleksi Postman |
 | Pengujian otomatis Laravel | Test memakai SQLite di memori | `php artisan test` |
 | Pengujian otomatis Node.js | Test unit dan integrasi (integrasi memakai MySQL) | `npm test` di folder `node-backend/` |
 
@@ -246,7 +246,7 @@ Cara menghubungkan:
 
 1. Jalankan backend: `php artisan migrate:fresh --seed`, lalu `php artisan serve --port=3000`
 2. Isi `CORS_ORIGIN` di `laravel/.env` dengan alamat frontend, misalnya `http://localhost:5500`
-3. Di frontend, ubah `baseUrl` pada konfigurasi API menjadi `http://localhost:3000/api/v1`
+3. Di frontend, isi `window.DISTY_API_BASE` di `config.js` dengan `http://localhost:3000/api/v1`
 4. Jalankan frontend sebagai file statis, misalnya `npx serve -l 5500`
 5. Login memakai akun demo di bagian *Akun awal* di atas
 
