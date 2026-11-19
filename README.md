@@ -229,7 +229,6 @@ Namespace PHP tidak berubah. `laravel/composer.json` memetakan awalan `App\\...`
 - Di produksi isi `JWT_SECRET` dengan teks acak panjang dan ganti semua kata sandi awal. Bila `JWT_SECRET` masih bawaan di `APP_ENV=production`, semua permintaan web ditolak dengan 500. Perintah `php artisan disty:periksa-produksi` memeriksa semua syarat produksi.
 - Jangan ikutkan file `.env` saat mengirim atau mengunggah proyek. Isinya password database dan `JWT_SECRET`.
 
-## Integrasi dengan Frontend
 
 ## Alur kerja Git
 
@@ -240,6 +239,7 @@ Namespace PHP tidak berubah. `laravel/composer.json` memetakan awalan `App\\...`
 - Tugas dan bug dicatat di Issues, lalu dihubungkan ke pull request dengan Closes #nomor.
 - Versi rilis ditandai dengan tag, misalnya v1.0.0.
 
+## Integrasi dengan Frontend
 Frontend ada di repo terpisah: https://github.com/DwiSelviYanti/disty-helpdesk-frontend-
 
 Cara menghubungkan:
